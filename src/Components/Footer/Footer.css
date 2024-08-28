@@ -1,0 +1,66 @@
+/* Footer Container */
+.footer {
+  background-color: #343a40; /* Dark background color */
+  color: #dc3545; /* Text color */
+  padding: 3rem 0; /* Padding for top and bottom */
+  text-align: center; /* Center-align text */
+}
+
+/* Container Styling */
+.footer-container {
+  max-width: 1140px; /* Same max-width as Bootstrap container */
+  margin: 0 auto; /* Center the container */
+  padding: 0 15px; /* Padding inside the container */
+}
+
+/* Footer Row */
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Footer Column */
+.footer-col {
+  flex: 1;
+  max-width: 300px; /* Maximum width for each column */
+  margin-bottom: 1.5rem; /* Space below each column */
+}
+
+/* Logo Styling */
+.footer-img img {
+  max-width: 150px; /* Limit logo width */
+  margin-bottom: 1rem; /* Space below the logo */
+  transition: transform 0.3s ease-in-out; /* Smooth scaling on hover */
+}
+
+.footer-img img:hover {
+  transform: scale(1.1); /* Slightly enlarge the logo on hover */
+}
+
+/* Footer Links */
+.footer-text-title {
+  color: #dc3545; /* Link color */
+  font-weight: 500; /* Medium weight text */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth color change on hover */
+  display: block; /* Make each link take a full line */
+  margin-bottom: 0.5rem; /* Space between links */
+}
+
+.footer-text-title:hover {
+  color: #ff5c5c; /* Lighter red on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer Text */
+.footer-copy,
+.footer-credit {
+  color: #ffffff; /* White color for text */
+  font-size: 14px; /* Standard font size */
+}
+
+.footer-credit {
+  font-size: 12px; /* Smaller font size for credit */
+  margin-top: 0.5rem; /* Space above the credit text */
+}

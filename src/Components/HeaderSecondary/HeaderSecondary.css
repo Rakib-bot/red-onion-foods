@@ -1,0 +1,40 @@
+/* src/components/HeaderSecondary.css */
+
+.body{
+    margin: 0;
+}
+.custom-header {
+    background-image: url('../../../public/logo/bannerbackground.png'); /* Replace with your image path */
+    background-size: cover; /* Ensure the image covers the entire element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 600px; /* Adjust the height as needed */
+    display: flex; /* Center content using flexbox */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    color: white; /* Text color */
+  }
+  
+  h2 {
+    margin-bottom: 20px; /* Spacing below the title */
+  }
+  
+  
+  .custom-button {
+    background-color: #f91944; /* Custom background color */
+    border: none; /* Remove default border */
+    border-radius: 50px; /* Round the corners */
+    padding: 10px 20px; /* Adjust padding */
+    color: white; /* Text color */
+    font-size: 16px; /* Adjust font size */
+  }
+  
+  .custom-button:hover {
+    opacity: 0.9; /* Slightly transparent on hover */
+  }
+  .form-control {
+    border-radius: 25px; /* Rounded corners for input */
+    padding: 10px 15px; /* Adjust padding */
+    max-width: 300px; /* Limit the width of the input box */
+    border: 1px solid #ccc; /* Light border for the input */
+  }

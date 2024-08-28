@@ -1,0 +1,83 @@
+/* src/components/SingleFeature.css */
+
+.feature {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  overflow: hidden;
+  position: relative;
+  padding: 5px;
+}
+
+
+
+.card-image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.card-img-top.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+
+}
+
+
+
+.card-body {
+  padding: 20px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  margin-right: 12px;
+}
+
+
+
+.feature-text h4 {
+  margin: 0;
+  font-size: 22px;
+  color: #333;
+  font-weight: 600;
+}
+
+.feature-text p {
+  
+  color: #666;
+  font-size: 16px;
+  
+}
+
+.btn-collapse {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  color: #f9224b;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.btn-collapse .icon {
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+.btn-collapse:hover {
+  color: #d1193f;
+}

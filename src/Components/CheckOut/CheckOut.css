@@ -1,0 +1,147 @@
+
+.checkout-container {
+    max-width: 1200px; /* Set a maximum width */
+    min-width: 800px;  /* Set a minimum width */
+         /* Add padding */
+    background-color: #f4f4f4; /* Light background color */
+    border-radius: 8px; 
+    height: 800px;/* Add border-radius for smoother look */
+}
+/* Styles for the form container */
+.form-edit {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px; /* Adjust as needed */
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Styles for input fields */
+  .form-input {
+    background-color: #fcf4e0; /* Input background color */
+    border: 1px solid #ddd; /* Light border for inputs */
+    border-radius: 8px; /* Consistent border radius */
+    color: black; /* Text color */
+    font-size: 16px; /* Font size for consistency */
+    padding: 10px; /* Padding inside the input */
+    margin-bottom: 15px; /* Space between inputs */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+  }
+  
+  /* Styles for the submit button */
+  .form-submit {
+    background-color: #f91944; /* Button background color */
+    border: none; /* No border for the button */
+    border-radius: 8px; /* Same border radius as inputs */
+    color: white; /* Text color for the button */
+    font-size: 16px; /* Font size for consistency */
+    padding: 10px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Styles for the button hover effect */
+  .form-submit:hover {
+    background-color: #e81c3e; /* Slightly darker shade on hover */
+  }
+  
+  /* Styles for error messages */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  /* Container for delivery information */
+.delivery-info {
+    background-color: #f4f4f4; /* Light background for better readability */
+    border-radius: 8px; /* Rounded corners */
+     /* Padding around the content */
+     /* Margin to separate from other elements */
+     /* Subtle shadow */
+}
+
+/* Style for each h5 element */
+.delivery-info h5 {
+    font-size: 1.1em; /* Slightly larger font size for better readability */
+    color: #333; /* Dark color for text */
+    margin: 8px 0; /* Margin between each line */
+    font-weight: normal; /* Normal font weight */
+}
+
+/* Span styling inside h5 */
+.delivery-info span {
+    font-weight: bold; /* Bold text for labels */
+    color: #f91944; /* Accent color for labels */
+}
+/* Container for summary information */
+.summary-info {
+    background-color: #f4f4f4; /* Light background for better readability */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px; /* Margin to separate from other elements */
+}
+
+/* Style for each h1 element */
+.summary-info h1 {
+    font-size: 1.2em; /* Larger font size for headings */
+    color: #333; /* Dark color for text */
+    margin: 8px 0; /* Margin between each heading */
+    font-weight: normal; /* Normal font weight */
+}
+
+/* Style for span inside h1 */
+.summary-info h1 span {
+    font-weight: bold; /* Bold text for values */
+    color: #f91944; /* Accent color for values */
+}
+/* Container for summary information */
+
+/* Style for each summary item */
+.summary-item {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between label and value */
+    margin: 8px 0; /* Margin between each item */
+}
+
+/* Style for labels */
+.summary-item .label {
+    font-size: 1em; /* Same font size for all labels */
+    color: #333; /* Dark color for text */
+    font-weight: bold; /* Bold text for labels */
+    flex: 1; /* Allow labels to grow */
+    text-align: left; /* Align text to the left */
+}
+
+/* Style for values */
+.summary-item .value {
+    font-size: 1em; /* Same font size for all values */
+    color: #f91944; /* Accent color for values */
+    font-weight: bold; /* Bold text for values */
+    flex: 1; /* Allow values to grow */
+    text-align: right; /* Align text to the right */
+}
+
+/* Basic styling for the button */
+.toggle-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Active state styling */
+.toggle-button.active {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+}
+
+/* Disabled state styling */
+.toggle-button.disabled {
+    background-color: #ccc; /* Grey background */
+    color: #666; /* Darker grey text */
+    cursor: not-allowed; /* Change cursor to indicate it's disabled */
+}

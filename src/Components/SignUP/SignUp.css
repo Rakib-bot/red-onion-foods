@@ -1,0 +1,154 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Logo Styles */
+.logo img {
+    height: 65px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Signup Container */
+.signup {
+    background-image: url('./bannerbackground.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Adjust size to cover the area */
+    padding: 90px 0;
+}
+
+/* Container */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Form Control */
+.form-control {
+    border: none; /* Remove border */
+    padding: 15px;
+    font-size: 16px;
+    background-color: white; /* White background for inputs */
+    margin-bottom: 15px;
+    width: 100%;
+    transition: background-color 0.3s ease; 
+}
+
+/* Remove border-radius from inputs to match the button */
+.form-control:focus {
+    border: none; /* Ensure no border on focus */
+    box-shadow: none; /* Remove box-shadow on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button Styles */
+.sign-btn {
+    border-radius: 0; /* Remove border radius for consistency */
+    padding: 15px; 
+    /* Match the padding of input fields */
+    background-color: #f9224b; /* Sign-up button color */
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%; /* Full width button */
+}
+
+.sign-btn:hover {
+    background-color: #e51b39; /* Darker shade on hover */
+    transform: scale(1.02); /* Slight scaling on hover */
+}
+
+/* Account Label */
+.account label {
+    color: #f9224b; /* Match button color */
+    cursor: pointer;
+    text-decoration: underline; /* Underline for clickable element */
+}
+
+/* Error Message */
+.error {
+    color: #f9224b; /* Error color */
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Headings */
+h4 {
+    margin-bottom: 20px; /* Space below heading */
+    color: #333; /* Darker text color for better readability */
+    font-size: 24px;
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 20px; /* Space below each form group */
+    position: relative; /* For positioning error messages */
+}
+
+/* Align inputs and buttons consistently */
+.form-group input {
+    border-radius: 0; /* No border-radius to match button */
+    padding: 15px;
+    font-size: 16px;
+    background-color:white; /* White background for inputs */
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 400px; /* Ensure padding does not affect width */
+}
+
+/* Error Message Styles */
+.form-group .error {
+    color: #f9224b; /* Error color */
+    font-size: 14px;
+    margin-top: 5px; /* Space between input and error message */
+    position: absolute; /* Position it relative to the form group */
+    bottom: -20px; /* Space below the input field */
+    left: 0; /* Align with left of the input field */
+}
+
+
+.google-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .google-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: black; /* Google Blue */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .google-btn-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .google-icon img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .google-text {
+    font-size: 16px;
+  }
+  

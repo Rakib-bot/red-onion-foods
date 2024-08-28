@@ -1,0 +1,63 @@
+.food-item .card-img-top {
+    width: 60%;
+    display: block;
+    padding-top: 15px;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.food-item .card-img-top:hover {
+    transform: scale(1.05);
+}
+
+.card-body p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.card-body h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.food-item .card {
+    padding: 15px;
+    margin: 15px;
+    border: none; /* Removed the border */
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    background-color: #fff;
+}
+
+.food-item .card:hover {
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.food-item .navigation-food .card-body {
+    color: #444 !important;
+}
+
+.food-item .card-footer {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 0 0 10px 10px;
+}
+
+.food-item .card-footer a {
+    color: #f9224b;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.food-item .card-footer a:hover {
+    color: #d10b38;
+}

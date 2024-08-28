@@ -1,0 +1,48 @@
+/* Feature Section */
+.feature {
+    background-color: white;
+    padding: 2rem 0; /* Padding top and bottom */
+}
+
+/* Container */
+.feature .container {
+    max-width: 1400px; /* Bootstrap default max-width for large screens */
+    margin: 0 auto; /* Center container */
+}
+
+/* Headings */
+.feature h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.feature p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555; /* Slightly darker grey for text */
+}
+
+/* Row */
+.feature .row {
+    margin-bottom: 1.5rem;
+}
+
+/* Single Feature */
+.feature .row.text-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Individual Feature Box */
+.single-feature {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.single-feature:hover {
+    transform: scale(1.05);
+}

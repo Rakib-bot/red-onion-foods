@@ -1,0 +1,43 @@
+/* BikeAnimation.css */
+
+.street-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px; /* Adjust as needed */
+    background-color: #e0f7fa; /* Light blue background for sky */
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px; /* Rounded corners for the container */
+}
+
+.street {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #4caf50; /* Green color for the street */
+    border-top: 5px solid #2e7d32; /* Darker green for street border */
+}
+
+.bike {
+    position: absolute;
+    bottom: 10px;
+    left: -100px; /* Start position off-screen */
+    width: 100px;
+    height: auto;
+    animation: ride 5s linear infinite; /* Adjust duration and timing */
+}
+
+@keyframes ride {
+    0% {
+        left: -100px; /* Start off-screen to the left */
+    }
+    50% {
+        left: calc(100% - 100px); /* Move to the right side */
+    }
+    100% {
+        left: -100px; /* Return to the start */
+    }
+}

@@ -1,0 +1,137 @@
+/* General Styles */
+.food-section {
+  padding: 2rem 0;
+  background-color: #f4f4f4; /* Add some padding to the top and bottom */
+}
+
+.food-section .container {
+  background-color: #f4f4f4;
+  padding: 2rem; /* Add padding inside the container */
+  max-width: 1200px; /* Restrict the max-width to prevent excessive stretching on large screens */
+  margin: 0 auto; /* Center the container */
+}
+
+.food-section .nav {
+  margin-bottom: 2rem; /* Add space below the navigation */
+}
+
+.food-section .nav-link {
+  color: black !important;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.5rem 1rem; /* Add padding around the nav links */
+  font-size: 1rem; /* Ensure a consistent font size */
+}
+
+.food-section .nav-link.active {
+  color: red !important;
+}
+
+.food-section .nav-link.active::after {
+  content: "";
+  height: 2px;
+  display: block;
+  background-color: red;
+  width: 100%;
+  margin-top: 0.5rem; /* Add some space between the text and underline */
+}
+
+.food-section .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ensure even spacing between items */
+  gap: 1.5rem; /* Add gap between the food items */
+}
+
+.food-section .row .food-item {
+  flex: 1 1 calc(33.333% - 1rem); /* Ensure 3 items per row with spacing */
+  max-width: calc(33.333% - 1rem);
+  box-sizing: border-box; /* Include padding in width/height calculations */
+}
+
+.food-section .food-item img {
+  width: 100%; /* Ensure images are responsive */
+  height: auto;
+  border-radius: 0.5rem; /* Add rounded corners for images */
+  margin-bottom: 1rem; /* Add space below the image */
+}
+
+.food-section .food-item .food-details {
+  text-align: center;
+  padding: 1rem; /* Add padding inside the food details */
+  background-color: #f4f4f4; /* Light background for food details */
+  border-radius: 0.5rem; /* Rounded corners for the details section */
+}
+
+.food-section .food-item .food-details h5 {
+  font-size: 1.25rem; /* Adjust the heading size */
+  margin-bottom: 0.5rem; /* Space below the heading */
+  color: #333; /* Darker color for the heading */
+}
+
+.food-section .food-item .food-details p {
+  font-size: 1rem; /* Standard paragraph size */
+  color: #666; /* Slightly lighter color for descriptions */
+  margin-bottom: 1rem; /* Add space below the description */
+}
+/* Default button styles */
+.toggle-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent; /* Background color of the button */
+   /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding inside the button */
+  cursor: pointer; /* Cursor on hover */
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+/* Button active state */
+.toggle-button.active {
+  background-color: #f91944; /* Dark background for active state */
+   /* Dark border for active state */
+}
+
+/* Button inactive state */
+.toggle-button.inactive {
+  background-color: #fff; /* Light background for inactive state */
+  border-color: #ccc;
+  cursor: not-allowed; /* Light border for inactive state */
+}
+
+/* Default icon color (black) */
+.button-icon {
+  width: 24px; /* Adjust icon size */
+  height: 24px;
+  margin-right: 10px; /* Space between icon and text */
+  filter: brightness(0) invert(1); /* Black icon color by default */
+  transition: filter 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Icon color for active button */
+.toggle-button.active .button-icon {
+  filter: brightness(1) invert(1); /* White icon color for active button */
+}
+
+/* Icon color for inactive button */
+.toggle-button.inactive .button-icon {
+  filter: brightness(0) invert(0); /* Black icon color for inactive button */
+}
+
+
+/* Hover effect */
+.toggle-button:hover {
+  background-color: #f0f0f0; /* Light grey background on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+/* Hover effect for active button */
+.toggle-button.active:hover {
+  background-color: #f91944; /* Slightly lighter dark background for active state on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Darker shadow for active state on hover */
+  transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+
+
