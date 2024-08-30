@@ -6,6 +6,7 @@ import helmet from './Image/helmet.png'
 import './Contact.css'
 import { userContext } from '../../App';
 import { clearData } from '../LocalStorageDB/FromDB';
+import GoogleMap from '../GoogleMap/GoogleMap';
 
 const Contact = () => {
     const location = useLocation();
@@ -22,10 +23,10 @@ const Contact = () => {
     return (
         <div className="contact-container pt-5 my-5">
           <div className="row">
-            <div className="image col-md-8">
-              <img className="img-fluid" src={googleMap} alt="" />
+            <div className="image col-md-7">
+              <GoogleMap/>
             </div>
-            <div className="col-md-4 pl-md-5">
+            <div className="col-md-5 pl-md-5">
               <div className="bg-light  rounded">
                 <img className="w-25 ml-6 custom-padding" src={rider} alt="" />
                 <div className="bg-white  rounded p-3 my-3">

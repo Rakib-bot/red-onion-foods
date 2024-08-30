@@ -14,7 +14,9 @@
 
 
 .image {
-    text-align: center; /* Center the image inside its column */
+    text-align: center; 
+    /* Center the image inside its column */
+
 }
 
 .img-fluid {
@@ -58,7 +60,8 @@
 }
 
 .w-25 {
-    width: 100%; /* Fixed width for the image */
+    width: 100%;
+     /* Fixed width for the image */
 }
 
 .ml-5 {
@@ -95,7 +98,7 @@ p {
     text-align: center; /* Center the text */
     display: inline-block; /* Inline block for proper padding and margin */
     text-decoration: none;
-    width: 325px; /* Remove underline for links */
+    width: 305px; /* Remove underline for links */
 }
 
 .custom-btn:hover {

@@ -17,6 +17,7 @@ import CheckOut from './Components/CheckOut/CheckOut';
 import Contact from './Components/Contact/Contact';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import OrderOnGoing from './Components/OrderOnGoing/OrderOnGoing';
+import GoogleMap from './Components/GoogleMap/GoogleMap';
 const foodData = fetchFoodData();
 export const userContext = createContext();
 function App() {
@@ -83,6 +84,7 @@ function App() {
               <OrderOnGoing />
               
             </PrivateRoute>} />
+           
 
           <Route path="*" element={<NotFound />} />
         </Routes>
